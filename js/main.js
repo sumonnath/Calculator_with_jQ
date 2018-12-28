@@ -22,7 +22,7 @@ $('#display1').val("");
 $('#display2').val("");
 
 // Set default theme (light)
-$(".container").addClass("container-light");
+$(".calculator").addClass("container-light");
 $("form").addClass("form-light");
 $("form input").addClass("form-input-light");
 $(".operand-group").addClass("operand-group-light");
@@ -395,8 +395,8 @@ $("input[type='checkbox']").change(function () {
     // dark theme
     if (this.checked) {
         //alert("dark");
-        $(".container").removeClass("container-light");
-        $(".container").addClass("container-dark");
+        $(".calculator").removeClass("container-light");
+        $(".calculator").addClass("container-dark");
         $("form").removeClass("form-light");
         $("form").addClass("form-dark");
         $("form input").removeClass("form-input-light");
@@ -415,8 +415,8 @@ $("input[type='checkbox']").change(function () {
     // light theme (default)
     else {
         //alert("light");
-        $(".container").removeClass("container-dark");
-        $(".container").addClass("container-light");
+        $(".calculator").removeClass("container-dark");
+        $(".calculator").addClass("container-light");
         $("form").removeClass("form-dark");
         $("form").addClass("form-light");
         $("form input").removeClass("form-input-dark");
